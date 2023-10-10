@@ -1,0 +1,34 @@
+textarea {
+    min-height: 400px;
+}
+
+#emails-view .mail_result{
+    border: 1px solid blue;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+}
+
+#emails-view .mail_result div{
+    border-bottom: 1px solid blue;
+    padding: 10px;
+}
+#emails-view .mail_result .head_mail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#emails-view .mail_result div:last-child{
+    border: none;
+}
+.email-buttons .btn-email{
+    border: none;
+    padding: 8px 16px;
+    background-color: rgb(70, 70, 219);
+    color:aliceblue;
+    border-radius: 8px;
+}
+.email-buttons .btn-email:hover{
+    background-color: rgb(40, 63, 112);
+}
